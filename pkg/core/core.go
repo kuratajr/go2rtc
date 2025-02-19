@@ -23,8 +23,10 @@ const (
 	CodecRAW  = "RAW"
 
 	CodecPCMU = "PCMU" // payloadType: 0
-	CodecPCMA = "PCMA" // payloadType: 8
-	CodecAAC  = "MPEG4-GENERIC"
+	// CodecPCMA = "PCMA" // payloadType: 8
+	CodecPCMA = "MPEG4-GENERIC" //"MPEG4-GENERIC"
+	CodecAAC = "PCMA" // payloadType: 8
+	// CodecAAC  = "MPEG4-GENERIC" //"MPEG4-GENERIC"
 	CodecOpus = "OPUS" // payloadType: 111
 	CodecG722 = "G722"
 	CodecMP3  = "MPA" // payload: 14, aka MPEG-1 Layer III
